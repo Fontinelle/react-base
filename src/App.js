@@ -1,12 +1,14 @@
 import Login from './pages/Login';
-import GlobalStyles, { Container } from './styles/GlobalStyles';
+import Header from './components/Header';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-    <Container>
-      <GlobalStyles />
+    <>
+      <Header />
       <Login />
-    </Container>
+      <GlobalStyles />
+    </>
   );
 }
 
