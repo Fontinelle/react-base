@@ -4,7 +4,7 @@ import { Container } from '../../styles/GlobalStyles';
 export default function Login() {
   return (
     <Container>
-      <Title>Login</Title>
+      <Title>Home</Title>
       <Paragrafo>Lorem ipsum dolor sit amet</Paragrafo>
       <button type="button">Enviar</button>
     </Container>
