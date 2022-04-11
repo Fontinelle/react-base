@@ -10,7 +10,7 @@ export default function Login() {
   function handleClick(e) {
     e.preventDefault();
 
-    dispatch(actions.buttonClick());
+    dispatch(actions.buttonClickRequest());
   }
   return (
     <Container>
